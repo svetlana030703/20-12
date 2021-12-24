@@ -1,5 +1,5 @@
-def f(numbers):
-    numbers.sort()
-    return(numbers)
+def f(n):
+    n.sort()
+    return(n)
 
-print(f(numbers = [int(number) for number in input().split(', ')]))
+print(f(n = [int(a) for a in input().split(', ')]))
