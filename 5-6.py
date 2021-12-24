@@ -2,21 +2,21 @@ def f(n ,m):
     dict_ = {}
 
     if len(n) == len(m):
-        for n,m in zip(names,ages):
+        for n,m in zip(nam,ag):
             dict_[n] = m
         return(dict_)
     else:
         print('Списки имеют разную длину')
 
-names = []
-ages = []
+nam = []
+ag = []
 n = int(input())
 m = int(input())
 
 for i in range(n):
-    names.append(input())
+    nam.append(input())
 
 for i in range(m):
-    ages.append(input())
+    ag.append(input())
 
-print(f(names,ages))
+print(f(nam,ag))
