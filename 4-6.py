@@ -2,13 +2,12 @@ import math
 
 a = [float (i) for i in input().split()]
 
-def calc(a_list):
-    for numbers in a:
-        if numbers > 0:
-            print (math.log1p(numbers))
+def f(n):
+    for i in a:
+        if i > 0:
+            print (math.log1p(i))
         else:
             print ("None")
 
-
-calc(a)
+f(a)
 
